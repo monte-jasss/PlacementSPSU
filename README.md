@@ -1,7 +1,7 @@
 # PlacementSPSU
 
 [![Build Status](https://travis-ci.org/dextel2/Admission.svg?branch=master)](https://travis-ci.org/dextel2/Admission) 
-[![License: APACHE](https://img.shields.io/badge/License-MIT-yellow.svg)(https://choosealicense.com/licenses/apache-2.0/)
+[![License: APACHE](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
 Developed an android application for automation of the training and placement cell of a college.
 
