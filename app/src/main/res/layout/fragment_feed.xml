@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.JobFeed">
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/curv"
+            android:fillViewport="true"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/spsu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="13dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:shadowColor="@color/colorPrimary"
+                    android:text="@string/spsu"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:transitionName="spsu" />
+
+                <ListView
+                    android:id="@+id/listStdJobs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/curv"
+                    android:divider="@color/colorPrimaryDark"
+                    android:dividerHeight="1dp">
+
+                </ListView>
+
+                <TextView
+                    android:layout_marginTop="100dp"
+                    android:id="@+id/noJobFeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:text="@string/no_jobs"
+                    android:textColor="@color/red"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

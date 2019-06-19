@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:anim/anticipate_overshoot_interpolator">
+    <rotate android:fromDegrees="180" android:toDegrees="360" android:pivotX="0" android:pivotY="0" android:duration="1500" />
+    <translate android:fromYDelta="-50%p" android:toYDelta="0%p" android:duration="1500" />
+</set>

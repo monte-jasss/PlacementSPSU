@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/curv"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Request">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeReq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/spsu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:padding="13dp"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    android:shadowColor="@color/colorPrimary"
+                    android:text="@string/spsu"
+                    android:textColor="@color/black"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:transitionName="spsu" />
+
+                <ListView
+                    android:visibility="gone"
+                    android:id="@+id/requestList"
+                    android:divider="@color/colorPrimaryDark"
+                    android:dividerHeight="2dp"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="70dp"
+                    android:layout_height="match_parent">
+
+                </ListView>
+
+                <TextView
+                    android:layout_marginTop="100dp"
+                    android:id="@+id/noReq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:text="@string/you_haven_t_applied_yet"
+                    android:textColor="@color/red"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

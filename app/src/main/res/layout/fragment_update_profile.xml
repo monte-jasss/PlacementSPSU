@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/curv"
+    tools:context=".Fragments.UpdateProfile">
+
+    <android.support.v4.widget.NestedScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/spsu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="13dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:outlineSpotShadowColor="@color/colorAccent"
+                android:shadowColor="@color/colorPrimary"
+                android:text="@string/spsu"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:transitionName="spsu" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:id="@+id/updateName"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/updateName1"
+                    android:focusedByDefault="false"
+                    android:hint="@string/name2"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/updateFName"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/updateFName1"
+                    android:focusedByDefault="false"
+                    android:hint="@string/father_name2"
+                    android:inputType="textCapWords"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/updateCourse"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/updateCourse1"
+                    android:focusedByDefault="false"
+                    android:hint="@string/course2"
+                    android:inputType="textPersonName"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/updateSemester"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/updateSemester1"
+                    android:focusedByDefault="false"
+                    android:hint="@string/semester2"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:maxLength="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/update10"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/update101"
+                    android:focusedByDefault="false"
+                    android:hint="@string/_10th2"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/update12"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/update121"
+                    android:focusedByDefault="false"
+                    android:hint="@string/_12th2"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusedByDefault="false"
+                android:id="@+id/updateCGPA"
+                app:errorEnabled="true"
+                android:gravity="center"
+                android:textColorHint="@color/greyDark">
+
+                <android.support.design.widget.TextInputEditText
+                    android:background="@drawable/edit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="14"
+                    android:id="@+id/updateCGPA1"
+                    android:focusedByDefault="false"
+                    android:hint="@string/cgpa2"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2sp"
+                    android:text="@string/interest"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/updateIntGrp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/updateInt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/technical"/>
+                    <RadioButton
+                        android:id="@+id/updateInt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/non_tech"/>
+                    <RadioButton
+                        android:checked="true"
+                        android:id="@+id/updateInt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/both"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/updateSkill"
+                    android:focusedByDefault="false"
+                    app:errorEnabled="true"
+                    android:overScrollMode="always"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:gravity="center"
+                    android:textColorHint="@color/greyDark">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:background="@drawable/edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusedByDefault="false"
+                        android:id="@+id/updateSkill1"
+                        android:hint="@string/skills2"
+                        android:overScrollMode="always"
+                        android:scrollbarStyle="insideInset"
+                        android:scrollbars="vertical"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusedByDefault="false"
+                    android:id="@+id/updateProject"
+                    app:errorEnabled="true"
+                    android:gravity="center"
+                    android:textColorHint="@color/greyDark">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:background="@drawable/edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusedByDefault="false"
+                        android:id="@+id/updateProject1"
+                        android:hint="@string/project2"
+                        android:overScrollMode="always"
+                        android:scrollbarStyle="insideInset"
+                        android:scrollbars="vertical"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusedByDefault="false"
+                    app:errorEnabled="true"
+                    android:id="@+id/updateTraining"
+                    android:gravity="center"
+                    android:textColorHint="@color/greyDark">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:background="@drawable/edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusedByDefault="false"
+                        android:overScrollMode="always"
+                        android:scrollbarStyle="insideInset"
+                        android:scrollbars="vertical"
+                        android:id="@+id/updateTraining1"
+                        android:hint="@string/training2"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusedByDefault="false"
+                    android:id="@+id/updateCertificate"
+                    app:errorEnabled="true"
+                    android:gravity="center"
+                    android:textColorHint="@color/greyDark">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:background="@drawable/edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:overScrollMode="always"
+                        android:scrollbarStyle="insideInset"
+                        android:scrollbars="vertical"
+                        android:id="@+id/updateCertificate1"
+                        android:focusedByDefault="false"
+                        android:hint="@string/certification2"
+                        android:inputType="textMultiLine"
+                        android:singleLine="false" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/updateSave"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="18"
+                android:text="@string/save"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/button"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
