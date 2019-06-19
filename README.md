@@ -15,4 +15,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## Technology Used
-* ![Tech: Java](https://img.shields.io/badge/Tech-Java-green.svg)
+1. ![Tech: Java](https://img.shields.io/badge/Tech-Java-green.svg)
