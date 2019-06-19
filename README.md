@@ -16,3 +16,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Technology Used
 ![Tech: Java](https://img.shields.io/badge/1-Java-green.svg)
+![Tech: XML](https://img.shields.io/badge/2-XML-green.svg)
+![Tech: JSON](https://img.shields.io/badge/3-JSON-green.svg)
+![Tech: Retrofit](https://img.shields.io/badge/4-Retrofit-green.svg)
+![Tech: PHP](https://img.shields.io/badge/5-PHP-green.svg)
