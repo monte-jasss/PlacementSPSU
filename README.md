@@ -11,6 +11,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## How to Use
 * Add PHPMailer to placement folder
 * place the placement folder in xampp/htdocs/ and start the server.
+* import the database(db_spsu.sql) into xampp server
 
 ## Live Demo
 > Download the ```.apk``` file of this project
