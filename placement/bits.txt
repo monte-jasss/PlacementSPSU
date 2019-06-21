@@ -1,0 +1,19 @@
+/*tbl_user*/
+	
+	//type
+	0 => student
+	1 => company
+	2 => admin
+
+	//active
+	0 => deactive
+	1 => active
+/////////////////////
+	
+/*tbl_apply*/
+	
+	//status
+	0 => pending
+	1 => selected
+	2 => rejected
+//////////////////////
