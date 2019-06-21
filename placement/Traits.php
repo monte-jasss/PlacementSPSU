@@ -77,8 +77,8 @@
 			    $mail->isSMTP();
 			    $mail->Host = 'smtp.gmail.com';
 			    $mail->SMTPAuth = true;
-					$mail->Username = 'mlakshkar5@gmail.com';
-					$mail->Password = 'Monte.jas@361';
+					$mail->Username = '<email>';
+					$mail->Password = '<password>';
 					$mail->SetFrom = 'no-reply@gmail.com';
 			    $mail->SMTPSecure = 'tls';
 			    $mail->Port = 587;
