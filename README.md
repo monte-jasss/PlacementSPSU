@@ -8,6 +8,10 @@ Developed an android application for automation of the training and placement ce
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## How to Use
+* Add PHPMailer to placement folder
+* place the placement folder in xampp/htdocs/ and start the server.
+
 ## Live Demo
 > Download the ```.apk``` file of this project
 
